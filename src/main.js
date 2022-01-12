@@ -1,8 +1,7 @@
 import Navigo from 'navigo';
-import Header from './components/header.js';
-
-import AboutPage from './pages/about.js';
-import HomePage from './pages/home.js';
+import Header from './components/header';
+import AboutPage from './page/about';
+import HomePage from './page/home';
 
 const router = new Navigo("/", {linksSelector: "a"});
 const render =  (content) => {
@@ -16,8 +15,7 @@ router.on({
         render(HomePage.print());
     },
     "/about": () => {
-        render( AboutPage.print());
-
+        render(AboutPage.print());
     },
     
 });
