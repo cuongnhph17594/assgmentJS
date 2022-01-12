@@ -1,20 +1,12 @@
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-.menu{
-  @apply flex;
-}
-.menu_item_link{
-  @apply block py-3 px-5 hover:bg-indigo-600 hover:text-white hover:decoration-1;
-}
-.new-item{
-  @apply border p-4 hover:border-red-300;
-} */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.menu{
+    @apply flex;
+}
+.menu_item_link{
+    @apply block py-3 px-6 hover:bg-indigo-600 hover:text-white hover:decoration-1;
+}
+.new-item{
+    @apply border p-4 hover:border-red-300;
+}
