@@ -20,3 +20,38 @@ const data = [
    
   ];
   export default data;
+  
+ export const editdata = [
+     {
+         id: "1",
+         name:"Jane Cooper",
+         email: "jane.cooper@example.com",
+         title:"Regional Paradigm Technician",
+         status: "Active",
+         role:"Admin",
+     },
+     {
+        id: "2",
+        name:"Jane Cooper",
+        email: "jane.cooper@example.com",
+        title:"Regional Paradigm Technician",
+        status: "Active",
+        role:"Admin",
+    },
+    {
+        id: "3",
+        name:"Jane Cooper",
+        email: "jane.cooper@example.com",
+        title:"Regional Paradigm Technician",
+        status: "Active",
+        role:"Admin",
+    },
+    {
+        id: "4",
+        name:"Jane Cooper",
+        email: "jane.cooper@example.com",
+        title:"Regional Paradigm Technician",
+        status: "Active",
+        role:"Admin",
+    },
+  ];
